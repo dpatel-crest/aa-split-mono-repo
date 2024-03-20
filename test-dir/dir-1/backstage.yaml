@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dir-1
+  title: dir-1
+  description: Component for dir-1
+  annotations:
+    github.com/project-slug: dir-1
+  tags: 
+    - nodejs
+spec:
+  type: service
+  owner: unknown
+  lifecycle: experimental
