@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-split-monorepo
+spec:
+  type: url
+  targets:
+    - ./test-dir/dir-1/backstage.yaml
+    - ./test-dir/dir-2/backstage.yaml
